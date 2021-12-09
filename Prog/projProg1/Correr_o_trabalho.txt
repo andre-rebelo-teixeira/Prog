@@ -1,0 +1,16 @@
+Este programa tira partido da make file, ou seja, para realizar a compilação do programa é necessário antes fazer o 'make'.
+
+Como realizar o make.
+    Atravéz da linha de comandos chegar até ao local onde o ficheiro se encontra guardado, e escrever make, esperando que o programa acabe a compilação
+    de todos os ficheiros que estão a ser usados.   (12 linhas)
+    Depois disso o programa está pronto para ser executado da forma que foi pedido no enunciado: 
+    
+        ./wargame [OPTIONS]    
+    
+    Se for para utilizar o script para testar os modos de jogo necessita tambem  de fazer o 'make' e depois é invocado da segunte forma
+        ./play_game [OPTIONS]
+
+    Diferença entre o uso do trabalho atravez do script e do modo normal (./wargame vs ./play_game) está no facto de ao utilizar o script serão criadas duas instancias do jogo que
+    vão jogar uma contra a outra, e ao utilizar o modo normal, apenas uma instancia do jogo será criada que irá jogar contra o utilizador do programa.
+
+Se por algum motivo quiser fazer outra vez o 'make' antes realize o make realizar o 'make clean' antes de modo a que os executaveis sejam compilado de novo.
