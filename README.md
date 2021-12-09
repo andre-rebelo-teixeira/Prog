@@ -1,2 +1,2 @@
 # Prog
-Code done for prog course
+Git containg all the code i did in my first programing course at IST
